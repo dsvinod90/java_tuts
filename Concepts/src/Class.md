@@ -62,7 +62,11 @@ public class Car {
 }
 ```
 
-We use the setter methods to set the value of a private field and getter to fetch the value of a private field.
+Since we use private scoped fields, we know that these cannot be directly accessed from another class. In order to do so, we make
+use of **Setters and Getters**.
+
+A **setter** is a public method used to set the value of the private field and a **getter** is a public
+method used to fetch the value of a private field. (refer to the code block above for syntax)
 
 We can access these public methods defined in the class by instantiating the class i.e. by creating objects of the class.
 This is how we will call the methods defined above from our main class:
