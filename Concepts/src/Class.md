@@ -115,6 +115,7 @@ public class Car {
     this(color, 4, model, 5); // Should be the first line
   }
 }
+
 public class Main {
   public static void main(String[] args) {
     Car ford = new Car(); // Empty constructor called
