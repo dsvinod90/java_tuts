@@ -11,7 +11,7 @@ This object called "tesla" will have:
 *   State - color, number of wheels, no of seats, model, etc.
 *   Behavior - go forward, go reverse, apply brakes, accelerate, decelerate etc.
 
-In Java, we define a class like this:
+In Java, we declare a class like this:
 ```java
 public class Car {
   // code here
@@ -92,6 +92,12 @@ In the above example we initialized an object by executing:
 ```java
 Car tesla = new Car();
 ```
+`Car tesla` -> Declaration of variable named tesla with an objct of type Car
+
+`new` -> Instantiation; Java keyword that creates an object
+
+`Car()` -> Initialization; The call to constructor which initializes the new object
+
 Here we are calling an empty constructor defined in the class `Car`. We don't have to explicitly define an empty
 constructor in a class. It is taken by default when an object is initialized.
 Let's take a look at defining constructors for our `Car` class:
